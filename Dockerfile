@@ -1,5 +1,5 @@
 FROM rabbitmq:3-management
-MAINTAINER jonathan.langford@schibsted.com.mx
+MAINTAINER jrobinlangford@gmail.com
 
 #Set ERLANG cookie so it is common to all containers in cluster
 COPY .erlang.cookie /var/lib/rabbitmq/
